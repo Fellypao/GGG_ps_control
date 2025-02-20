@@ -146,9 +146,9 @@ root = tk.Tk()
 root.title("Power supply control (v. {})".format(version))
 
 # Default values
-std_frequency = 10000.0            # 10 kHz
+std_frequency = 10000              # 10 kHz
 std_time_off = 10                  # 10 miliseconds
-std_treat_duration = 5.0           # 5 minutes
+std_treat_duration = 5             # 5 minutes
 std_number_of_pulses = 10          # 10 pulses
 
 try:
